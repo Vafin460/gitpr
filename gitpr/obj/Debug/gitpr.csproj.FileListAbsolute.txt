@@ -1,0 +1,10 @@
+C:\Users\vafin\source\repos\gitpr\gitpr\bin\Debug\gitpr.exe.config
+C:\Users\vafin\source\repos\gitpr\gitpr\bin\Debug\gitpr.exe
+C:\Users\vafin\source\repos\gitpr\gitpr\bin\Debug\gitpr.pdb
+C:\Users\vafin\source\repos\gitpr\gitpr\obj\Debug\gitpr.csproj.AssemblyReference.cache
+C:\Users\vafin\source\repos\gitpr\gitpr\obj\Debug\gitpr.Form1.resources
+C:\Users\vafin\source\repos\gitpr\gitpr\obj\Debug\gitpr.Properties.Resources.resources
+C:\Users\vafin\source\repos\gitpr\gitpr\obj\Debug\gitpr.csproj.GenerateResource.cache
+C:\Users\vafin\source\repos\gitpr\gitpr\obj\Debug\gitpr.csproj.CoreCompileInputs.cache
+C:\Users\vafin\source\repos\gitpr\gitpr\obj\Debug\gitpr.exe
+C:\Users\vafin\source\repos\gitpr\gitpr\obj\Debug\gitpr.pdb
