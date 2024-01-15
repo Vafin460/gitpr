@@ -42,7 +42,7 @@ namespace gitpr
             float drh = w / (7);
             x = (w / 2 - drw / 2);
             y = (h / 2 - drh / 2);
-            g.FillRectangle(sb, x, y, drw, drh);
+            
             makeFractal(x, y, drw, drh, 4);
             
         }
@@ -52,6 +52,11 @@ namespace gitpr
             Graphics g = Graphics.FromImage(pictureBox1.Image);
             Brush sb = new SolidBrush(Color.FromArgb(100, 100, 100, 100));
 
+            if(iter == 1)
+            {
+                g.FillRectangle(sb, x, y, drw, drh);
+            }
+
             if (iter == maxIter)
             {
                 return;
@@ -59,10 +64,10 @@ namespace gitpr
             iter++;
 
 
-            g.FillRectangle(sb, x - (drw / 2), y - (drh / 2), drw / 2, drh / 2); // верхний левый 
-            g.FillRectangle(sb, x + drw      , y - (drh / 2), drw / 2, drh / 2); // вехиний правый 
-            g.FillRectangle(sb, x - (drw / 2), y + (drh    ), drw / 2, drh / 2); // нижний  левый
-            g.FillRectangle(sb, x + (drw    ), y + (drh    ), drw / 2, drh / 2); // нижний  правый
+            g.FillRectangle(sb, x - drw / 2, y - (drh / 2), drw / 2, drh / 2); // верхний левый 
+            g.FillRectangle(sb, x + drw    , y - (drh / 2), drw / 2, drh / 2); // вехиний правый 
+            g.FillRectangle(sb, x - drw / 2, y + (drh    ), drw / 2, drh / 2); // нижний  левый
+            g.FillRectangle(sb, x + drw    , y + (drh    ), drw / 2, drh / 2); // нижний  правый
 
 
             
